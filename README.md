@@ -18,7 +18,7 @@
 建议使用`方法一` 因为不保证我封装好的程序cookies一直可用 不填写cookies只能下载`480P`的视频
 
 ### 获取哔哩哔哩cookies
-![cookies](http://img.tenapi.cn/bilibili/cookies.png)
+![bilicookies](https://user-images.githubusercontent.com/31686695/99899303-326af200-2ce3-11eb-8df3-1be7389203b0.png)
 
 ## TODO
 - 下载视频改用Aria2
