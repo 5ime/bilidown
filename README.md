@@ -10,6 +10,7 @@
 - re
 - requests
 - json
+- closing
 
 ## 使用说明
 1. 打开`bilidown.py`文件 填写自己的`cookies`然后运行`bilidown.py`即可
@@ -20,6 +21,6 @@
 ### 获取哔哩哔哩cookies
 ![bilicookies.png](https://i.loli.net/2020/11/22/p5JfZyWjXSu4Vxd.png)
 
-## TODO
-- 下载视频改用Aria2
-- 增加其他功能
+## 更新日志
+
+2021-01-30 新增视频下载进度
