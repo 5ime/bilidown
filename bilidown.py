@@ -31,7 +31,7 @@ if 'https://b23.tv' in url:
     loc = requests.get(url,allow_redirects=False)
     url = loc.headers['location'] 
 if 'video/av' in url:
-    av = json.loads(requests.get('https://ap8i.bilibili.com/x/web-interface/archive/stat?aid='+url,allow_redirects=False,headers=header).text)
+    av = json.loads(requests.get('https://api.bilibili.com/x/web-interface/archive/stat?aid='+url,allow_redirects=False,headers=header).text)
     url = av['data']['bvid']
 video_id = re.findall("[\w.]*[\w:\-\+\%]",url)[3]
 vid = json.loads(requests.get('https://api.bilibili.com/x/web-interface/view?bvid='+video_id,allow_redirects=False,headers=header).text)
